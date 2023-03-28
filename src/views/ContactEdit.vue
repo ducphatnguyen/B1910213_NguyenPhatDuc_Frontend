@@ -12,6 +12,7 @@ export default {
     components: {
         ContactForm,
     },
+    //Truyền từ cha xuống con (từ ContactBook -> ContactEdit)
     props: {
         id: { type: String, required: true },
     },

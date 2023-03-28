@@ -29,6 +29,7 @@
                     <i class="fas fa-address-card"></i>
                 </h4>
                 <ContactCard :contact="activeContact" />
+                <!-- Truyền id xuống con (contact.edit), con nhận được thông qua prop -->
                 <router-link :to="{
                     name: 'contact.edit',
                     params: { id: activeContact._id },
